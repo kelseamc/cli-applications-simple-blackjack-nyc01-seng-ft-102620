@@ -33,6 +33,7 @@ end
 def hit?(input)
   prompt_user
   get_user_input
+  initial_round
 end
 
 def invalid_command
