@@ -39,9 +39,9 @@ def hit?(total)
     x = deal_card
     total = (x + total)
     return total
-  elsif input != "s" && input != "h"
+  else
     invalid_command
-    prompt_user
+    hit?(total)
   end
   total
 end
