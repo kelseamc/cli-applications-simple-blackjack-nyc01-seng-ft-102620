@@ -36,7 +36,7 @@ def hit?
 end
 
 def invalid_command
-  puts 
+  puts
 end
 
 #####################################################
