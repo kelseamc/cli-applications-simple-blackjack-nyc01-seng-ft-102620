@@ -19,8 +19,7 @@ def get_user_input
 end
 
 def end_game(total)
-    puts "Sorry, you hit #{total}. Thanks for playing!"
-  end
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
@@ -36,7 +35,7 @@ def hit?
 end
 
 def invalid_command
-  puts
+  puts "Please enter a valid command"
 end
 
 #####################################################
